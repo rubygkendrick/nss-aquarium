@@ -1,0 +1,36 @@
+.fishcard {
+    word-wrap: break-word;
+    border: solid slateblue 3px;
+    width: 700px
+}
+.harvest {
+    word-wrap: break-word;
+    border: solid slateblue 3px;
+    width: 700px
+}
+
+.tanktips {
+    
+    word-wrap: break-word;
+    border: solid slateblue 3px;
+    width: 100px
+    
+}
+
+#leftside {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    
+
+}
+
+#rightside {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    
+    
+
+}
