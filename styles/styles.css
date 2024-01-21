@@ -1,36 +1,66 @@
+.martinsAquarium {
+    text-align: center;
+}
+
+
+
+
 .fishcard {
     word-wrap: break-word;
     border: solid slateblue 3px;
-    width: 700px
+    width: 1100px;
+    margin: 50px
+}
+
+
+.fish__image {
+    width: 300px;
 }
 .harvest {
     word-wrap: break-word;
     border: solid slateblue 3px;
-    width: 700px
+    width: 1100px
 }
 
+.tankTipsTitle {
+    margin: 60px
+}
+.quotesTitle {
+    margin: 50px
+}
+
+.locationTitle {
+    margin: 50px
+}
+
+.myFishTitle {
+    margin: 50px
+}
 .tanktips {
     
     word-wrap: break-word;
     border: solid slateblue 3px;
-    width: 100px
+    width: 250px
     
 }
 
-#leftside {
+#entireBody {
     display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+#leftside {
+ flex-basis: 80%;
 
     
 
 }
 
 #rightside {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    
-    
+   flex-basis: 30%;
+   margin: 50px    
 
 }
+
+
