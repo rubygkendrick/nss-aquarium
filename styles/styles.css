@@ -1,66 +1,86 @@
-.martinsAquarium {
+
+
+#siteHeader {
+   font-size: 100px;
+   margin: auto;
     text-align: center;
+    color:blue;
+    background-color: rgb(143, 240, 240);
+}
+
+#entireBody {
+    display: flex;
+    justify-content: space-around; 
+    background-color: aqua;
+    
+}
+
+#leftside {
+ flex-basis: 70%;
+ margin-bottom: 100px;
+}
+
+#rightside {
+   flex-basis: 20%;
+    margin-bottom: 100px;
+   margin-top: 15px;
+   
 }
 
 
-
-
 .fishcard {
-    word-wrap: break-word;
-    border: solid slateblue 3px;
-    width: 1100px;
-    margin: 50px
+    
+    border: solid slateblue 3px;   
 }
 
 
 .fish__image {
     width: 300px;
 }
-.harvest {
-    word-wrap: break-word;
-    border: solid slateblue 3px;
-    width: 1100px
-}
-
-.tankTipsTitle {
-    margin: 60px
-}
-.quotesTitle {
-    margin: 50px
-}
-
-.locationTitle {
-    margin: 50px
-}
 
 .myFishTitle {
-    margin: 50px
-}
-.tanktips {
-    
-    word-wrap: break-word;
-    border: solid slateblue 3px;
-    width: 250px
-    
+   
+    color: blue;
 }
 
-#entireBody {
-    display: flex;
-    justify-content: space-between;
+
+.locationcard {
+    
+    border: solid slateblue 6px;
    
 }
 
-#leftside {
- flex-basis: 80%;
-
+.locationcard_name {
     
+    font-size: 25px;
+}
+
+.locationcard_description {
+
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.locationsection {
+    padding: 20px;
+}
+
+
+.tipcard {
+    
+    word-wrap: break-word;
+    border: solid slateblue 3px;
+    padding: 10px;
 
 }
 
-#rightside {
-   flex-basis: 30%;
-   margin: 50px    
-
+.tankTipsTitle{
+    color: blue;
 }
+.locationTitle {
+    color: blue;
+}
+
 
 
